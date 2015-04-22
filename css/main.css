@@ -94,7 +94,7 @@ figure {
 }
 
 .banner2 {
-  height: 610px;
+  height: 910px;
   position: relative;
 }
 
@@ -129,4 +129,41 @@ p {
 .right {
   width: 50%;
   float: right;
+}
+
+.special {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.game {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.oo {
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  font-family: Monoton;
+  background-color: #c77966;
+  border-radius: 20px;
+}
+
+.icons {
+  margin: 25px;
+  float: right;
+  width: 30%;
+}
+
+.tw {
+  margin: 10px 0 0 0;
 }
