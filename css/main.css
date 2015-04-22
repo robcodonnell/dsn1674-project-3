@@ -9,7 +9,9 @@ html {
 body {
   margin: 0;
   background-color: #2f343b;
+  font-size: 16px;
 }
+
 h1 {
   background-color: #703030;
   color: #fff;
@@ -27,7 +29,7 @@ figure {
 }
 
 nav {
-
+  margin-bottom: -4px;
   overflow: hidden;
   margin: 0;
   height: auto;
@@ -48,7 +50,11 @@ nav li {
   width: calc(100% / 3);
   float: left;
   padding: 10px;
-  border: 1px solid #703030;
+  /*border: 1px solid #2f343b;*/
+}
+
+nav li:hover {
+  background-color: #c78c85;
 }
 
 nav a {
@@ -59,4 +65,34 @@ nav a {
 
 header {
   overflow: hidden;
+  margin-bottom: -4px;
+}
+
+.banner1 {
+  height: 90px;
+  width: 100%;
+  position: relative;
+  }
+
+#banner1 {
+  position: absolute;
+}
+
+figure {
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+
+.banner1 {
+  height: 90px;
+  width: 100%;
+  position: relative;
+  }
+
+#banner1 {
+  position: absolute;
+}
+
+.banner2 {
+  height: 610px;
 }
