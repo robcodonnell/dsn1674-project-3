@@ -16,7 +16,8 @@ h1 {
   background-color: #703030;
   color: #fff;
   font-family: Monoton;
-  margin: auto;
+  margin: 0;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -94,8 +95,9 @@ figure {
 }
 
 .banner2 {
-  height: 910px;
+  height: 710px;
   position: relative;
+  margin: 0 0 70px 0;
 }
 
 h2 {
@@ -159,11 +161,64 @@ p {
 }
 
 .icons {
-  margin: 25px;
+  margin: 25px 25px 0px 10px;
   float: right;
-  width: 30%;
+  width: 25%;
 }
 
 .tw {
   margin: 10px 0 0 0;
+}
+
+.contact {
+  width: 60%;
+  float: left;
+  color: #fff;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  margin: 30px 0 0 0;
+}
+
+span p {
+  color: #fff;
+  padding: 10px 10px 0px 10px;
+}
+
+.cu {
+  padding: 0 0 0 10px;
+}
+
+.fu {
+  padding: 0 0 0 10px;
+}
+
+.cb {
+  padding: 0 0 0 10px;
+}
+
+footer {
+  height: 40px;
+  margin: 0;
+  background-color: #7e827a;
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+footer a {
+  color: #2f343b;
+  text-decoration: none;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  top: 5px;
+  right: 120px;
+}
+
+footer a:hover {
+  color: #fff;
 }
