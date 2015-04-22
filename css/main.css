@@ -1,8 +1,62 @@
 html {
   box-sizing: border-box;
-  font:
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: #2f343b;
+}
+h1 {
+  background-color: #703030;
+  color: #fff;
+  font-family: Monoton;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: auto;
+}
+
+nav {
+
+  overflow: hidden;
+  margin: 0;
+  height: auto;
+}
+
+nav ul {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c77966;
+}
+
+nav li {
+  width: calc(100% / 3);
+  float: left;
+  padding: 10px;
+  border: 1px solid #703030;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #703030;
+}
+
+header {
+  overflow: hidden;
 }
