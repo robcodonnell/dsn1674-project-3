@@ -98,6 +98,7 @@ figure {
   height: 710px;
   position: relative;
   margin: 0 0 70px 0;
+  overflow: hidden;
 }
 
 h2 {
@@ -210,13 +211,14 @@ footer {
 
 footer a {
   color: #2f343b;
+  width: 100%;
   text-decoration: none;
   padding: 10px 0;
   text-align: center;
   position: absolute;
   bottom: 5px;
-  top: 5px;
-  right: 120px;
+  top: 13px;
+  transform: translate(-50%, -50%);
 }
 
 footer a:hover {
