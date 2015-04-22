@@ -60,7 +60,7 @@ nav li:hover {
 nav a {
   display: block;
   text-decoration: none;
-  color: #703030;
+  color: #2f343b;
 }
 
 header {
@@ -84,7 +84,7 @@ figure {
 }
 
 .banner1 {
-  height: 90px;
+  height: 140px;
   width: 100%;
   position: relative;
   }
@@ -95,4 +95,38 @@ figure {
 
 .banner2 {
   height: 610px;
+  position: relative;
+}
+
+h2 {
+  margin: 0;
+  text-align: left;
+  color: #2f343b;
+  padding: 0px 10px;
+}
+
+p {
+  color: #2f343b;
+  margin: 0;
+  padding: 10px;
+}
+
+.p2 {
+  position: absolute;
+  top: 10px;
+}
+
+.p1 {
+  position: absolute;
+  top: 10px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  float: right;
 }
