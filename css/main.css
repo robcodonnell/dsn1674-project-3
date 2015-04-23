@@ -19,7 +19,7 @@ main {
 h1 {
   background-color: #703030;
   color: #fff;
-  font-family: Monoton;
+  font-family: "Monoton", cursive;
   margin: 0;
   padding: 10px 0;
   text-align: center;
@@ -55,7 +55,6 @@ nav li {
   width: 33%;
   float: left;
   padding: 10px;
-  /*border: 1px solid #2f343b;*/
 }
 
 nav li:hover {
@@ -103,7 +102,6 @@ figure {
   height: auto;
   position: relative;
   margin: 0 0 30px 0;
-
 }
 
 h2 {
