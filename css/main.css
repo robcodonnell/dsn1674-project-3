@@ -16,13 +16,20 @@ main {
   margin: 0 0 50px 0;
 }
 
+header {
+  overflow: hidden;
+  margin-bottom: -4px;
+  width: auto%;
+}
+
 h1 {
   background-color: #703030;
   color: #fff;
   font-family: "Monoton", cursive;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 150px 0 0;
   text-align: center;
+  width: 100%;
 }
 
 img {
@@ -66,11 +73,6 @@ nav a {
   text-decoration: none;
   color: #2f343b;
   font-size: 16px;
-}
-
-header {
-  overflow: hidden;
-  margin-bottom: -4px;
 }
 
 .banner1 {
