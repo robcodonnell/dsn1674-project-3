@@ -17,7 +17,7 @@ main {
 }
 
 header {
-
+  text-align: center;
   margin-bottom: -4px;
   width: auto%;
 }
@@ -27,7 +27,7 @@ h1 {
   color: #fff;
   font-family: "Monoton", cursive;
   margin: 0;
-  padding: 10px 150px 0 0;
+  padding: 10px 0px 0 0;
   text-align: center;
   width: 100%;
 }
