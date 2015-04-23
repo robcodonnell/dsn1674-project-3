@@ -66,6 +66,7 @@ nav a {
   display: block;
   text-decoration: none;
   color: #2f343b;
+  font-size: 16px;
 }
 
 header {
@@ -157,10 +158,10 @@ p {
 .oo {
   margin: 20px 20px;
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #fff;
   text-align: center;
-  font-family: Monoton;
+  font-family: 'Ropa Sans', sans-serif;
   background-color: #c77966;
   border-radius: 20px;
 }
@@ -175,13 +176,14 @@ p {
   margin: 10px 0 0 0;
 }
 
-.contact {
+div.contact {
   width: 60%;
   float: left;
   color: #fff;
   font-size: 0.8em;
   line-height: 1.2em;
   margin: 30px 0 0 0;
+  z-index: 1;
 }
 
 span p {
@@ -201,6 +203,7 @@ span p {
   padding: 0 0 0 10px;
 }
 
+/*
 footer {
   height: 40px;
   margin: 40px 0 0 0;
@@ -227,4 +230,14 @@ footer a {
 
 footer a:hover {
   color: #fff;
+}
+*/
+
+div p {
+  color: #fff;
+}
+
+article {
+  color: #2f343b;
+  margin: 10px;
 }
